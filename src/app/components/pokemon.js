@@ -6,7 +6,7 @@ import React, { useEffect, useState } from "react";
 
 function Pokemon(){
     const [pokemon,setPokemon]=useState("/vercel.svg");
-    const url="https://pokeapi.co/api/v2/pokemon/kabuto";
+    const url="https://pokeapi.co/api/v2/pokemon/140";
 
     useEffect(()=>{
         fetch(url)

@@ -18,10 +18,13 @@ function About(){
                 <p>Abilities</p>
                 <br></br>
                 <div className={style.typer}>
-                    <p>water</p>
+                    <p>water, rock</p>
+                    <br></br>
                     <p>0.5m</p>
+                    <br></br>
                     <p>11kg</p>
-                    <p>swift-swim</p>
+                    <br></br>
+                    <p>swift-swim, weak-armor, battle-armor</p>
                 </div>
             </div>
         </div>
