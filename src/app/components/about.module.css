@@ -1,0 +1,27 @@
+.contenedor{
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+    text-align: left;
+}
+.type{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    width: 450px;
+    color: var(--gray);
+    background-color: var(--white);
+    font-size: var(--sm);
+}
+.typer{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    text-align: right;
+    color: var(--gray-black);
+    background-color: var(--white);
+    font-size: var(--sm);
+}
